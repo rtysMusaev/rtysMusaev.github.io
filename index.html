@@ -6,16 +6,51 @@
     <title>Мой первый сайт</title>
     <script>
         function say_hi() {
-            alert("Hello World");
+            alert("Все кнопки для скачаивания активны");
         }
     </script>
 </head>
 
 <body>
-    <P>Это мой первый сайт</P>
+    <P>
+    <h2>Добро пожаловать !</h2>
+    </P>
+    <p>
+    <h2>Все кнопки для скачаивания активны</h2>
+    </p>
+    <p>
+        <input type="button" onclick="say_hi()" value="Жми меня" style="font-size: 30px; color: #02025c;">
+    </p>
+
+    <style>
+        body {
+            background: url(GeekBrains.jpg) no-repeat;
+            -moz-background-size: 100%;
+            /* Firefox 3.6+ */
+            -webkit-background-size: 100%;
+            /* Safari 3.1+ и Chrome 4.0+ */
+            -o-background-size: 100%;
+            /* Opera 9.6+ */
+            background-size: 100%;
+            /* Современные браузеры */
+        }
+    </style>
+
+    <p>
+        <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+        <a style="font-size: 20px;" href="instruction.md">Инструкция по работе с удаленными репозиториями</a>
+
+    </p>
+
+    <a href="instrusction.docx"><img src="download2.png" width="125" height="45" border="0" /></a>
+
     <p>
 
-        <input type="button" onclick="say_hi()" value="Жми меня" style="font-size: 30px; color: #02025c;"> 
+        <button>
+            <h3>
+                <a href="instrusction.docx" download> Скачать файл с инструкцией
+            </h3>
+        </button>
     </p>
 
 </body>
